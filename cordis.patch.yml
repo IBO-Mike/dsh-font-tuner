@@ -1,0 +1,5 @@
+# dsh-font-tuner 的 bundle 层：把自己的行插进 web 客户端 roster。
+# 卸载：从 profile 的 package.json 里移除 dsh-font-tuner（或由 plugin_manager 移除本 bundle）。
+- insert:
+    - id: ui-font-tuner
+      name: 'dsh-font-tuner'
